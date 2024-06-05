@@ -5,6 +5,7 @@
     height: 60px;
     color: white;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 .leftNavbarBelt {
     display: flex;

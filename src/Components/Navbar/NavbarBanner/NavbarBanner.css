@@ -1,0 +1,27 @@
+.navbarBanner {
+    background-color: #232f3e;
+    padding: px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.optionsNavbarBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 9px;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid;
+        border-radius: 3px;
+    }
+}
+.optionsNavbarBannerIcon {
+    padding-right: 5px;
+}
+.allOptionsNavbarBanner {
+    font-size: 14px;
+    font-weight: 400;
+}
