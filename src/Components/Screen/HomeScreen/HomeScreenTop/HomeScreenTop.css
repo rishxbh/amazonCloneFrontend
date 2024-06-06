@@ -1,0 +1,39 @@
+.homeScreenTop {
+
+    width: 100%;
+}
+.homeScreenTopBanner {
+    position: relative;
+}
+.bannerImage {
+    width: 100%;
+}
+.homeScreenTopBannerBack {
+    display: flex;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    left: 50;
+    margin-left: 10px;
+    align-items: center;
+    &:hover {
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
+}
+.homeScreenTopBannerForw {
+    display: flex;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    align-items: center;
+    &:hover {
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
+}
+.backButton {
+    transform: rotate(180deg);
+}
