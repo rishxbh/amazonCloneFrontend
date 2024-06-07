@@ -1,6 +1,6 @@
 .homeScreenTop {
-
     width: 100%;
+    position: relative;
 }
 .homeScreenTopBanner {
     position: relative;
@@ -36,4 +36,39 @@
 }
 .backButton {
     transform: rotate(180deg);
+}
+.homeScreenTopBelt {
+    position: absolute;
+    top: 230px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card {
+    flex: 1 0 21%;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+.title {
+    font-size: 21px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+.allTiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile {
+    padding: 10px;
+    flex: 0 0 43%;
+}
+.tileImage{
+    width: 100%;
+}
+.tileTitle {
+    font-size: 12px;
 }
